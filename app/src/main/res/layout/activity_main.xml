@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3f1ed"
+    >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:divider="@null">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="17dp"
+            android:paddingBottom="17dp"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:background="@drawable/line1"
+                android:clickable="true"
+                android:gravity="center|right"
+                android:textSize="13sp" />
+
+            <TextView
+                android:clickable="true"
+                android:id="@+id/txt2"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/line2"
+                android:gravity="center" />
+
+            <ImageButton
+                android:id="@+id/image_button"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:background="@drawable/line2"
+                android:src="@drawable/image1" />
+
+            <ImageButton
+
+                android:id="@+id/btn_browse"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@drawable/line2"
+                android:src="@drawable/image2" />
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_bottom_month"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f3f1ed"
+
+            >
+        </android.support.v7.widget.RecyclerView>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_bottom_year"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f3f1ed"
+
+            >
+
+        </android.support.v7.widget.RecyclerView>
+    </FrameLayout>
+
+</LinearLayout>
+
+
+
+

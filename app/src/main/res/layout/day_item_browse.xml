@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="7dp"
+    android:paddingLeft="13dp"
+    android:paddingRight="13dp"
+    android:paddingTop="7dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+
+
+        <TextView
+            android:id="@+id/date_of_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="3"
+            android:textStyle="bold"
+            android:typeface="serif"
+            />
+
+        <TextView
+            android:id="@+id/day_short"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUNDAY/"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:typeface="monospace"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/day_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|left"
+        android:textSize="18dp"
+        android:typeface="sans"
+        android:text="一段日记一段日记一段日记一段日记一段日记一段日记一段日记一段日记"
+        />
+
+
+
+</LinearLayout>

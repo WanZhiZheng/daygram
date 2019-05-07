@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:weightSum="1">
+<LinearLayout
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/day_short"
+        android:layout_width="60dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:textSize="40px" />
+
+    <TextView
+        android:id="@+id/date_of_month"
+        android:gravity="center"
+        android:layout_width="60dp"
+        android:layout_height="45dp"
+        android:text="15" />
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/day_content"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="111"
+        android:layout_weight="0.96" />
+</LinearLayout>
